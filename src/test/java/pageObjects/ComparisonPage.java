@@ -38,7 +38,6 @@ public class ComparisonPage {
     public void deleteSelectedProduct(int productId) {
         sleep(3000);
         $$(deleteSelectedProductLocator).get(productId).hover().click();
-        //$$(deleteSelectedProductLocator).get(productId).click();
     }
 
     @Step("Удалены все продукты с страницы сравнения.")
